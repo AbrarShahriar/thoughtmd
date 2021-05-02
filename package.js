@@ -3,7 +3,7 @@ SystemJS.config({
   defaultExtension: true,
   packages: {
     ".": {
-      main: './app.js',
+      main: './index.js',
       defaultExtension: 'js'
     }
   },
@@ -25,9 +25,7 @@ SystemJS.config({
     'react-router-dom': '../node_modules/react-router-dom/react-router-dom.min.js',
     'css': '../node_modules/css/css.js',
     'material-ui/core': '../node_modules/material-ui/material-ui.production.min.js',
-    'firebase': '../node_modules/firebase/firebase-app.js',
-    'firebase/auth': '../node_modules/firebase/auth/firebase-auth.js',
-    'firebase/firestore': '../node_modules/firebase/firestore/firebase-firestore.js',
+    'firebase': '../node_modules/firebase/firebase.min.js',
     'react-markdown': '../node_modules/react-markdown/react-markdown.js'
   },
   transpiler: 'plugin-babel'
